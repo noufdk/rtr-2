@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:riyadh_transportation/configs/colors.dart';
-import 'package:riyadh_transportation/screens/redemption_history_screen.dart';
-import 'package:riyadh_transportation/widgets/points_banner.dart';
-import 'package:riyadh_transportation/widgets/rewards_item.dart';
+import 'package:demo/configs/colors.dart';
+import 'package:demo/screens/redemption_history_screen.dart';
+import 'package:demo/widgets/points_banner.dart';
+import 'package:demo/widgets/rewards_item.dart';
 
 class RewardsScreen extends StatelessWidget {
   const RewardsScreen({super.key});

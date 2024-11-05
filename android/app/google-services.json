@@ -1,0 +1,68 @@
+{
+  "project_info": {
+    "project_number": "478491100495",
+    "firebase_url": "https://riyadh-transportation-re-a7e4b-default-rtdb.firebaseio.com",
+    "project_id": "riyadh-transportation-re-a7e4b",
+    "storage_bucket": "riyadh-transportation-re-a7e4b.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:478491100495:android:6f0ea774d5c0ebd4a0b13a",
+        "android_client_info": {
+          "package_name": "com.example.demo"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBFryHlMHWkw30GRy6GTLvSoJJalXb_nc4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:478491100495:android:b2f719bbd0ee274ca0b13a",
+        "android_client_info": {
+          "package_name": "com.example.riyadh_transportation"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBFryHlMHWkw30GRy6GTLvSoJJalXb_nc4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:478491100495:android:3920a69ae571b557a0b13a",
+        "android_client_info": {
+          "package_name": "com.example.rtr"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBFryHlMHWkw30GRy6GTLvSoJJalXb_nc4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

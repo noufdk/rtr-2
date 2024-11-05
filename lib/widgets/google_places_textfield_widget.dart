@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:google_places_flutter/google_places_flutter.dart';
 import 'package:google_places_flutter/model/place_type.dart';
 import 'package:google_places_flutter/model/prediction.dart';
-import 'package:riyadh_transportation/configs/constants.dart';
+import 'package:demo/configs/constants.dart';
 
 class GooglePlacesTextFieldWidget extends StatelessWidget {
   const GooglePlacesTextFieldWidget({
@@ -28,7 +28,7 @@ class GooglePlacesTextFieldWidget extends StatelessWidget {
       boxDecoration: boxDecoration ?? const BoxDecoration(),
       textEditingController: controller,
       googleAPIKey: apiKey,
-      
+
       focusNode: focusNode,
       inputDecoration: InputDecoration(
           border: InputBorder.none,

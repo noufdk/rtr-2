@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:riyadh_transportation/configs/colors.dart';
+import 'package:demo/configs/colors.dart';
 
 class AppButton extends StatelessWidget {
   const AppButton({super.key, required this.onPressed, this.title, this.icon});

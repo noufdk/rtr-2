@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:get/get_core/get_core.dart';
 import 'package:get/get_navigation/get_navigation.dart';
-import 'package:riyadh_transportation/configs/colors.dart';
-import 'package:riyadh_transportation/widgets/app_button.dart';
-import 'package:riyadh_transportation/widgets/points_banner.dart';
+import 'package:demo/configs/colors.dart';
+import 'package:demo/widgets/app_button.dart';
+import 'package:demo/widgets/points_banner.dart';
 
 class RedemptionHistoryScreen extends StatelessWidget {
   const RedemptionHistoryScreen({super.key});

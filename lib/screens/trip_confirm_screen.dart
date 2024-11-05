@@ -1,11 +1,11 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:riyadh_transportation/configs/colors.dart';
-import 'package:riyadh_transportation/controllers/maps_controller.dart';
-import 'package:riyadh_transportation/screens/end_trip_screen.dart';
-import 'package:riyadh_transportation/widgets/app_button.dart';
-import 'package:riyadh_transportation/widgets/app_circular_overlay_loader.dart';
-import 'package:riyadh_transportation/widgets/maps_widget.dart';
+import 'package:demo/configs/colors.dart';
+import 'package:demo/controllers/maps_controller.dart';
+import 'package:demo/screens/end_trip_screen.dart';
+import 'package:demo/widgets/app_button.dart';
+import 'package:demo/widgets/app_circular_overlay_loader.dart';
+import 'package:demo/widgets/maps_widget.dart';
 
 class TripConfirmScreen extends StatefulWidget {
   const TripConfirmScreen({super.key});

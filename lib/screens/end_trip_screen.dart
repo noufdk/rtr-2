@@ -2,9 +2,9 @@ import 'package:flutter/material.dart';
 import 'package:flutter_rating_stars/flutter_rating_stars.dart';
 import 'package:get/get.dart';
 import 'package:lottie/lottie.dart';
-import 'package:riyadh_transportation/configs/assets.dart';
-import 'package:riyadh_transportation/configs/colors.dart';
-import 'package:riyadh_transportation/widgets/app_button.dart';
+import 'package:demo/configs/assets.dart';
+import 'package:demo/configs/colors.dart';
+import 'package:demo/widgets/app_button.dart';
 
 class EndTripScreen extends StatefulWidget {
   const EndTripScreen({super.key});

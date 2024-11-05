@@ -1,10 +1,10 @@
 import 'package:flutter/material.dart';
-import 'package:riyadh_transportation/configs/colors.dart';
-import 'package:riyadh_transportation/screens/home_screen.dart';
-import 'package:riyadh_transportation/screens/rewards_screen.dart';
-import 'package:riyadh_transportation/screens/settings_screen.dart';
-import 'package:riyadh_transportation/screens/trip_history_screen.dart';
-import 'package:riyadh_transportation/widgets/custom_bottom_bar.dart';
+import 'package:demo/configs/colors.dart';
+import 'package:demo/screens/home_screen.dart';
+import 'package:demo/screens/rewards_screen.dart';
+import 'package:demo/screens/settings_screen.dart';
+import 'package:demo/screens/trip_history_screen.dart';
+import 'package:demo/widgets/custom_bottom_bar.dart';
 
 class BottomMenu extends StatefulWidget {
   const BottomMenu({super.key});

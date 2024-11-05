@@ -51,18 +51,20 @@ class DefaultFirebaseOptions {
 
   static const FirebaseOptions android = FirebaseOptions(
     apiKey: 'AIzaSyBFryHlMHWkw30GRy6GTLvSoJJalXb_nc4',
-    appId: '1:478491100495:android:b2f719bbd0ee274ca0b13a',
+    appId: '1:478491100495:android:6f0ea774d5c0ebd4a0b13a',
     messagingSenderId: '478491100495',
     projectId: 'riyadh-transportation-re-a7e4b',
-    storageBucket: 'riyadh-transportation-re-a7e4b.appspot.com',
+    databaseURL: 'https://riyadh-transportation-re-a7e4b-default-rtdb.firebaseio.com',
+    storageBucket: 'riyadh-transportation-re-a7e4b.firebasestorage.app',
   );
 
   static const FirebaseOptions ios = FirebaseOptions(
     apiKey: 'AIzaSyDLEl7H5zTpGAV1F5BOkgBjF8gB6bwzNc8',
-    appId: '1:478491100495:ios:b9d39aea19103d60a0b13a',
+    appId: '1:478491100495:ios:9a7d846f59715dbea0b13a',
     messagingSenderId: '478491100495',
     projectId: 'riyadh-transportation-re-a7e4b',
-    storageBucket: 'riyadh-transportation-re-a7e4b.appspot.com',
-    iosBundleId: 'com.example.riyadhTransportation',
+    databaseURL: 'https://riyadh-transportation-re-a7e4b-default-rtdb.firebaseio.com',
+    storageBucket: 'riyadh-transportation-re-a7e4b.firebasestorage.app',
+    iosBundleId: 'com.example.demo',
   );
 }

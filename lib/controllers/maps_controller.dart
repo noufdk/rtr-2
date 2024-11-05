@@ -2,10 +2,10 @@ import 'package:flutter/material.dart';
 import 'package:geolocator/geolocator.dart';
 import 'package:get/get.dart';
 import 'package:google_maps_flutter/google_maps_flutter.dart';
-import 'package:riyadh_transportation/configs/assets.dart';
-import 'package:riyadh_transportation/models/travel_time_model.dart' as travel;
-import 'package:riyadh_transportation/repositories/maps_repo.dart';
-import 'package:riyadh_transportation/widgets/app_button.dart';
+import 'package:demo/configs/assets.dart';
+import 'package:demo/models/travel_time_model.dart' as travel;
+import 'package:demo/repositories/maps_repo.dart';
+import 'package:demo/widgets/app_button.dart';
 
 class MapsController extends GetxController {
   var currentPosition = const LatLng(0.0, 0.0).obs;

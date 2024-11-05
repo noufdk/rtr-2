@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:pin_code_fields/pin_code_fields.dart';
-import 'package:riyadh_transportation/configs/colors.dart';
-import 'package:riyadh_transportation/widgets/app_button.dart';
+import 'package:demo/configs/colors.dart';
+import 'package:demo/widgets/app_button.dart';
 
 class OtpScreen extends StatelessWidget {
   const OtpScreen({super.key});

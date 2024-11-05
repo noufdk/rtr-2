@@ -2,7 +2,7 @@ import 'dart:convert';
 
 import 'package:google_maps_flutter/google_maps_flutter.dart';
 import 'package:http/http.dart' as http;
-import 'package:riyadh_transportation/configs/constants.dart';
+import 'package:demo/configs/constants.dart';
 
 import '../models/travel_time_model.dart';
 

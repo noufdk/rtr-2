@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:riyadh_transportation/configs/assets.dart';
-import 'package:riyadh_transportation/configs/colors.dart';
+import 'package:demo/configs/assets.dart';
+import 'package:demo/configs/colors.dart';
 
 class RewardsItem extends StatefulWidget {
   const RewardsItem({

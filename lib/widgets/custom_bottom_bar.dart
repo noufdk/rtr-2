@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:riyadh_transportation/configs/colors.dart';
+import 'package:demo/configs/colors.dart';
 
 // ignore: must_be_immutable
 class CustomBottomBar extends StatefulWidget {

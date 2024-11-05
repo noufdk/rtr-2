@@ -2,10 +2,10 @@ import 'package:firebase_auth/firebase_auth.dart';
 import 'package:firebase_database/firebase_database.dart';
 import 'package:get/get.dart';
 import 'package:http/http.dart' as http;
-import 'package:riyadh_transportation/configs/constants.dart';
-import 'package:riyadh_transportation/models/login_data_model.dart';
-import 'package:riyadh_transportation/screens/bottom_menu.dart';
-import 'package:riyadh_transportation/screens/login_screen.dart';
+import 'package:demo/configs/constants.dart';
+import 'package:demo/models/login_data_model.dart';
+import 'package:demo/screens/bottom_menu.dart';
+import 'package:demo/screens/login_screen.dart';
 
 class AuthController extends GetxController {
   final firebase = FirebaseAuth.instance;

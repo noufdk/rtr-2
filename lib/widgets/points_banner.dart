@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:riyadh_transportation/configs/assets.dart';
-import 'package:riyadh_transportation/configs/colors.dart';
+import 'package:demo/configs/assets.dart';
+import 'package:demo/configs/colors.dart';
 
 class PointsBanner extends StatelessWidget {
   const PointsBanner({

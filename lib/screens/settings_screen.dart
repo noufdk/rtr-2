@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:intl/intl.dart';
-import 'package:riyadh_transportation/configs/assets.dart';
-import 'package:riyadh_transportation/configs/colors.dart';
-import 'package:riyadh_transportation/controllers/auth_controller.dart';
-import 'package:riyadh_transportation/widgets/app_text_field.dart';
+import 'package:demo/configs/assets.dart';
+import 'package:demo/configs/colors.dart';
+import 'package:demo/controllers/auth_controller.dart';
+import 'package:demo/widgets/app_text_field.dart';
 
 class SettingsScreen extends StatefulWidget {
   const SettingsScreen({super.key});

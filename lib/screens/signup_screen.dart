@@ -1,12 +1,12 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:riyadh_transportation/configs/assets.dart';
-import 'package:riyadh_transportation/configs/colors.dart';
-import 'package:riyadh_transportation/controllers/auth_controller.dart';
-import 'package:riyadh_transportation/screens/login_screen.dart';
-import 'package:riyadh_transportation/widgets/app_button.dart';
-import 'package:riyadh_transportation/widgets/app_circular_overlay_loader.dart';
-import 'package:riyadh_transportation/widgets/app_text_field.dart';
+import 'package:demo/configs/assets.dart';
+import 'package:demo/configs/colors.dart';
+import 'package:demo/controllers/auth_controller.dart';
+import 'package:demo/screens/login_screen.dart';
+import 'package:demo/widgets/app_button.dart';
+import 'package:demo/widgets/app_circular_overlay_loader.dart';
+import 'package:demo/widgets/app_text_field.dart';
 
 class SignUpScreen extends StatelessWidget {
   SignUpScreen({super.key});
