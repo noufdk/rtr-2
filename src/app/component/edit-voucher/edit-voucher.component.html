@@ -1,0 +1,68 @@
+<div class="container">
+    <div class="w-50 mx-auto">
+      <div class="card p-4 shadow-sm">
+        <h3 class="card-title text-center mb-3">Edit Voucher</h3>
+  
+        <form (ngSubmit)="onSubmit()">
+          <!-- Title Field -->
+          <div class="mb-3">
+            <label for="title" class="form-label">Title</label>
+            <input
+              type="text"
+              class="form-control"
+              id="title"
+              [(ngModel)]="title"
+              name="title"
+              required
+            />
+          </div>
+  
+          <!-- Points Field -->
+          <div class="mb-3">
+            <label for="points" class="form-label">Points</label>
+            <input
+              type="text"
+              class="form-control"
+              id="points"
+              [(ngModel)]="points"
+              name="points"
+              required
+            />
+          </div>
+  
+          <!-- Item Field -->
+          <div class="mb-3">
+            <label for="item" class="form-label">Item</label>
+            <input
+              type="text"
+              class="form-control"
+              id="item"
+              [(ngModel)]="item"
+              name="item"
+            />
+          </div>
+  
+          <!-- Add Item Button -->
+          <button type="button" class="btn btn-secondary w-100" (click)="addItem()">
+            Add Item
+          </button>
+  
+          <!-- Items List -->
+          <div class="mt-3">
+            <h5>Items List</h5>
+            <ul class="list-group">
+              <li *ngFor="let item of itemsList" class="list-group-item">
+                {{ item }}
+              </li>
+            </ul>
+          </div>
+  
+          <!-- Submit Button -->
+          <button type="submit" class="btn btn-primary w-100 mt-3">
+            Submit
+          </button>
+        </form>
+      </div>
+    </div>
+  </div>
+  

@@ -1,0 +1,53 @@
+<div class="container">
+    <div class="row">
+      <div class="col mt-5">
+        <h2 class="text-green">Vouchers</h2>
+  
+        <!-- Loader Spinner -->
+        <div *ngIf="loading" class="loader-container">
+          <div class="spinner">Loading...</div>
+        </div>
+  
+        <!-- Vouchers Table -->
+        <table *ngIf="!loading" id="example2" class="table table-hover">
+          <thead>
+            <tr>
+              <th scope="col">Title</th>
+              <th scope="col">Points</th>
+              <th scope="col">Items</th>
+              <th scope="col">Actions</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr *ngFor="let voucher of vouchersList">
+              <td>{{ voucher.title }}</td>
+              <td>{{ voucher.points }}</td>
+              <td>
+                <ul class="list-unstyled mb-0">
+                  <li *ngFor="let item of voucher.items">
+                     {{ item }}
+                  </li>
+                </ul>
+              </td>
+              <td>
+                <a [routerLink]="['/editVoucher']" [queryParams]="{uid:voucher.id, title: voucher.title, points: voucher.points, items: voucher.items}">
+                <button
+                  class="btn btn-outline-primary m-1"
+                >
+                  Edit
+                </button>
+                </a>
+                <button
+                (click)="deleteVoucher(voucher.id??'')"
+                  class="btn btn-outline-danger"
+                >
+                  Delete
+                </button>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </div>
+  

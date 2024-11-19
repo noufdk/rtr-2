@@ -1,0 +1,14 @@
+{
+  "targets": {
+    "riyadh-transportation-re-a7e4b": {
+      "hosting": {
+        "riyadh_admin": [
+          "riyadh-transportation-re-a7e4b"
+        ]
+      }
+    }
+  },
+  "projects": {
+    "default": "riyadh-transportation-re-a7e4b"
+  }
+}

@@ -1,0 +1,51 @@
+<body id="body-pd">
+  <header class="header" id="header" [ngClass]="{ hide: !loggedIn }">
+    <div class="header_toggle text-black-50">
+      <i class="bx bx-menu" id="header-toggle"></i>
+    </div>
+  </header>
+  <div class="l-navbar" id="nav-bar" [ngClass]="{ hide: !loggedIn }">
+    <nav class="nav ms-2">
+      <div>
+        <a class="nav_logo ">
+          <i class="bx bx-layer nav_logo-icon "></i>
+          <span class="nav_logo-name ">Dashboard</span>
+        </a>
+        <div class="nav_list">
+
+          <a routerLink="/usersList" class="nav_link active ">
+            <i class="bx bx-user nav_icon "></i>
+            <span class="nav_name">Users</span>
+          </a>
+
+          <a routerLink="/vouchersList" class="nav_link">
+            <i class="bx bx-pencil nav_icon"></i>
+            <span class="nav_name ">Vouchers</span>
+          </a>
+          <a routerLink="/addVoucher" class="nav_link  ">
+            <i class="bx bx-plus nav_icon "></i>
+            <span class="nav_name">Add Voucher</span>
+          </a>
+          
+          <a routerLink="/ratingsList" class="nav_link">
+            <i class="bx bx-star nav_icon"></i>
+            <span class="nav_name ">Ratings</span>
+          </a>
+          <a routerLink="/qapage" class="nav_link">
+            <i class="bx bx-question-mark nav_icon"></i>
+            <span class="nav_name ">Q & A</span>
+          </a>
+          <a routerLink="/reports" class="nav_link">
+            <i class="bx bx-download nav_icon"></i>
+            <span class="nav_name ">Reports</span>
+          </a>
+          <a (click)="logout()" class="nav_link">
+            <i class="bx bx-log-out nav_icon  "></i>
+            <span class="nav_name">SignOut</span>
+          </a>
+        </div>
+      </div>
+    </nav>
+  </div>
+  <router-outlet></router-outlet>
+</body>

@@ -1,0 +1,20 @@
+<div class="container-fluid">
+    <div class="row">
+        <div class="row mt-5">
+            <div *ngFor="let rating of ratings" class="col-md-6 col-lg-4 mb-4">
+              <div class="card shadow-sm">
+                <div class="card-body">
+                  <h5 class="card-title text-primary">{{ rating.name }}</h5>
+                  <p class="card-text">{{ rating.message }}</p>
+                  <div class="stars">
+                    <span *ngFor="let star of [].constructor(rating.stars)" class="text-warning">
+                      ★
+                    </span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+    </div>
+  </div>
+  
